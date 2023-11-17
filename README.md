@@ -35,5 +35,11 @@ The final training objective is achieved by computing the weighted sum of style 
 
 Refer to the illustrative image below for a visual representation of the process:
 <div>
-  <img src="">
+  <img src="DATA/models.png">
 </div>
+
+The main highlights of the network:
+
+* Residual Layers
+* Encoder-Decoder Model
+* output from decoder is passed to loss model(VGG) to calculate loss and train
