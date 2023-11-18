@@ -14,7 +14,7 @@ Stylize Any photo  in the style of famous paintings using Neural Style Transfer.
 * Model also uses instance normalization instead of batch normalization based on the paper [Instance Normalization: The Missing Ingredient for Fast Stylization](https://arxiv.org/abs/1607.08022)
 * Training uses perceptual loss defined in the paper [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155).
 * Vgg19 is used to calculate perceptual loss more closely described on paper.
-* find [here](https://drive.google.com/drive/folders/1zHpVh5Sxhb0Z2xwctesmzLydMYTO9C2m?usp=sharing) dataset used in this code.
+
 
 # Loss Model Setup for Perceptual Loss Calculation
 In this implementation, we employ a trained VGG19 model to compute perceptual loss, inspired by the principles outlined in a relevant [paper](https://arxiv.org/abs/1603.08155).
